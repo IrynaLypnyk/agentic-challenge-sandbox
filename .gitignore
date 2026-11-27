@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Local AI agent settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Logs
+*.log
